@@ -1,6 +1,5 @@
 #include <iostream>
 #include <thread>
-#include <string>
 #include <cstdlib>
 #include <ctime>
 #include "SysClear.hpp"
@@ -27,21 +26,31 @@ int Quiz::run(){
 
 void Quiz::start(){
     int category = categoryChoice();
-    if(category==PROGRAMMING){
-        int questionCount = 10;
-        std::string path = "questions/programming/";
-        for(int i=0; i<10; ++i){
-            int num = 0;
-            while(wasBefore(num)) num = random(1, questionCount);
-            before.push_back(num);
-            std::string questionNumber = std::to_string(num);
-            Question question(path+"q"+questionNumber+".txt");
-            if(question.ask()) ++points;
-            std::cout<<"Points: "<<points<<"/"<<maxPoints<<"\n";
-            std::this_thread::sleep_for(std::chrono::seconds(2));
-        }
-    }
+    if(category==PROGRAMMING) askQuestions(10, "questions/programming/");
+    if(category==NETWORKING) askQuestions(10, "questions/networking/");
+    if(category==HARDWARE) askQuestions(10, "questions/hardware/");
+    if(category==SECUIRITY) askQuestions(10, "questions/secuirity");
     clear();
+    judgeResults();
+    std::cout<<"Points: "<<points<<"/"<<maxPoints<<"\n";
+    std::this_thread::sleep_for(std::chrono::seconds(4));
+    state = MENU;
+}
+
+void Quiz::askQuestions(int questionCount, const std::string& path){
+    for(int i=0; i<10; ++i){
+        int num = 0;
+        while(wasBefore(num)) num = random(1, questionCount);
+        before.push_back(num);
+        std::string questionNumber = std::to_string(num);
+        Question question(path+"q"+questionNumber+".txt");
+        if(question.ask()) ++points;
+        std::cout<<"Points: "<<points<<"/"<<maxPoints<<"\n";
+        std::this_thread::sleep_for(std::chrono::seconds(2));
+    }
+}
+
+void Quiz::judgeResults(){
     if(points==10) std::cout<<"You're the best!  :D \n";
     if(points==0) std::cout<<"Ohh.. maybe another time :( \n";
     if(points==5) std::cout<<"Not bad, not good :| \n";
@@ -49,9 +58,6 @@ void Quiz::start(){
         if(points>5) std::cout<<"Not bad ;) \n";
     }
     if(points<5) std::cout<<"Try to do it better :/ \n";
-    std::cout<<"Points: "<<points<<"/"<<maxPoints<<"\n";
-    std::this_thread::sleep_for(std::chrono::seconds(4));
-    state = MENU;
 }
 
 int Quiz::categoryChoice(){

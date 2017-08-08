@@ -2,6 +2,7 @@
 #define CONSOLEQUIZ_QUIZ_HPP
 
 #include <vector>
+#include <string>
 
 class Quiz
 {
@@ -13,6 +14,8 @@ private:
     void start();
 
     int random(int from, int to);
+    void askQuestions(int questionCount, const std::string& path);
+    void judgeResults();
     bool wasBefore(int x);
     enum Category{PROGRAMMING, NETWORKING, HARDWARE, SECUIRITY};
     int categoryChoice();
