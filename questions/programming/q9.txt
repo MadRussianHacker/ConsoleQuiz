@@ -1,0 +1,13 @@
+<author>
+MadRussianHacker
+
+<start>
+Which SQL reqest is WRONG?
+
+A) SELECT * FROM users WHERE user IS "Thomas"
+B) SELECT ALL FROM users WHERE "Thomas"
+C) SELECT * FROM users WHERE use IS NOT "Thomas"
+<end>
+
+<answer>
+B

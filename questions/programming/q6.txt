@@ -1,0 +1,13 @@
+<author>
+MadRussianHacker
+<start>
+Which sorting algorithm from below is the most efficient?
+
+A) bubble sort
+B) quick sort
+D) merge sort
+C) insertion sort
+<end>
+
+<answer>
+B

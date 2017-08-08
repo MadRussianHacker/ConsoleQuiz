@@ -1,0 +1,14 @@
+<author>
+MadRussianHacker
+
+<start>
+How to print something in web browser console in JavaScript?
+
+A) console.log("Hello world!);
+B) print "Hello world!"
+C) console.print("Hello world!);
+D) document.write("Hello world);
+<end>
+
+<answer>
+A

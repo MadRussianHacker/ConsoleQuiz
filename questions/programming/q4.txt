@@ -1,0 +1,15 @@
+<author>
+MadRussianHacker
+
+<start>
+What kind of algorithm is bubble sort?
+
+A) O(log n) 
+B) O(n^2)
+C) O(2^n)
+D) O(n)
+E) O(1)
+<end>
+
+<answer>
+B

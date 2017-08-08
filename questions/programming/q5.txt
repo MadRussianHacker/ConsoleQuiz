@@ -1,0 +1,15 @@
+<author>
+MadRussianHacker
+
+<start>
+On which data structure is based heap?
+
+A) list
+B) stack
+C) queue
+D) binary tree
+E) graph
+<end>
+
+<answer>
+D

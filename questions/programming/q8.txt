@@ -1,0 +1,14 @@
+<author>
+MadRussianHacker
+
+<start>
+What is an associative array?
+
+A) array where all elements are sorted
+B) all elements have associated string to them
+C) all elements are sorted and have associated
+   special code called 'hash' to them
+<end>
+
+<answer>
+B

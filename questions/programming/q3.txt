@@ -1,0 +1,13 @@
+<author>
+MadRussianHacker
+<start>
+What values will have variables x and y after operations below?
+[C++]=======================
+int x = 10;                |
+int y = x++;               |
+============================
+A) x=11, y=11, B) x=10, y=10, C) x=11, y=10.
+<end>
+
+<answer>
+C

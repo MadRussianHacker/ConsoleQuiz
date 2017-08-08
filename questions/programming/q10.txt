@@ -1,0 +1,15 @@
+<author>
+
+<start>
+What langauge is used to describe style of websites?
+
+A) JavaScript
+B) C#
+C) Python
+D) Perl
+E) CSS
+F) Pascal
+<end>
+
+<answer>
+E

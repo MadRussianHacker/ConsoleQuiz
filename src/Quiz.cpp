@@ -1,11 +1,18 @@
 #include <iostream>
 #include <thread>
+#include <string>
+#include <cstdlib>
+#include <ctime>
 #include "SysClear.hpp"
 #include "Question.hpp"
 #include "Quiz.hpp"
 
 int Quiz::run(){
+    srand(time(NULL));
     state = MENU;
+    points = 0;
+    maxPoints = 10;
+    before.push_back(0);
     while(1){
         switch(state)
         {
@@ -21,10 +28,30 @@ int Quiz::run(){
 void Quiz::start(){
     int category = categoryChoice();
     if(category==PROGRAMMING){
-        Question q("questions/programming/q1.txt");
-        q.ask();
+        int questionCount = 10;
+        std::string path = "questions/programming/";
+        for(int i=0; i<10; ++i){
+            int num = 0;
+            while(wasBefore(num)) num = random(1, questionCount);
+            before.push_back(num);
+            std::string questionNumber = std::to_string(num);
+            Question question(path+"q"+questionNumber+".txt");
+            if(question.ask()) ++points;
+            std::cout<<"Points: "<<points<<"/"<<maxPoints<<"\n";
+            std::this_thread::sleep_for(std::chrono::seconds(2));
+        }
     }
-    state = EXIT;
+    clear();
+    if(points==10) std::cout<<"You're the best!  :D \n";
+    if(points==0) std::cout<<"Ohh.. maybe another time :( \n";
+    if(points==5) std::cout<<"Not bad, not good :| \n";
+    if(points!=10){
+        if(points>5) std::cout<<"Not bad ;) \n";
+    }
+    if(points<5) std::cout<<"Try to do it better :/ \n";
+    std::cout<<"Points: "<<points<<"/"<<maxPoints<<"\n";
+    std::this_thread::sleep_for(std::chrono::seconds(4));
+    state = MENU;
 }
 
 int Quiz::categoryChoice(){
@@ -91,9 +118,19 @@ void Quiz::runMenu(){
 
 void Quiz::credits(){
     clear();
-    std::cout<<"\n\t Copyright 2017 by Michal Gibas (\"MadRussianHacker\") \n";
+    std::cout<<"\n\t Copyright 2017 by Michal Gibas \n (\"MadRussianHacker\") \n";
     std::cout<<"\t\t All rights reseved. \n\n";
     std::this_thread::sleep_for(std::chrono::seconds(3));
     state = MENU;
     clear();
+}
+
+int Quiz::random(int from, int to){
+    return (std::rand()%to)+from;
+}
+
+bool Quiz::wasBefore(int x){
+    for(unsigned int i=0; i<before.size(); ++i)
+        if(before[i]==x) return true;
+    return false;
 }
