@@ -15,11 +15,16 @@ public:
     int run();
 private:
     void runMenu();
-    void clear();
-    enum State{MENU, CATEGORY_CHOICE, START, CREDITS, EXIT};
+    void credits();
+    void start();
+
     enum Category{PROGRAMMING, NETWORKING, HARDWARE, SECUIRITY};
+    int categoryChoice();
+
+    void clear();
+
+    enum State{MENU, START, CREDITS, EXIT};
     State state;
-    Category category;
 };
 
 #endif //CONSOLEQUIZ_QUIZ_HPP
