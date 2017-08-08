@@ -1,5 +1,7 @@
 #include <iostream>
 #include <thread>
+#include "SysClear.hpp"
+#include "Question.hpp"
 #include "Quiz.hpp"
 
 int Quiz::run(){
@@ -18,6 +20,10 @@ int Quiz::run(){
 
 void Quiz::start(){
     int category = categoryChoice();
+    if(category==PROGRAMMING){
+        Question q("questions/programming/q1.txt");
+        q.ask();
+    }
     state = EXIT;
 }
 
@@ -90,8 +96,4 @@ void Quiz::credits(){
     std::this_thread::sleep_for(std::chrono::seconds(3));
     state = MENU;
     clear();
-}
-
-void Quiz::clear(){
-    system(SYS_CLEAR_COMMAND);
 }

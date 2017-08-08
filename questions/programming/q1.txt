@@ -1,0 +1,16 @@
+<author>
+MadRussianHacker
+
+<start>
+How many calls of foo function will cause that loop?
+[C++]=========================================
+    for(int i=11; i>2; --i){                 |
+        foo();                               |
+    }                                        |
+==============================================
+
+A) 11,   B) 2,    C) 6,    D) 9,    E) 12.
+<end>
+
+<answer>
+D
