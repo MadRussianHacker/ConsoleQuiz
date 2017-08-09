@@ -1,0 +1,16 @@
+<author>
+source: https://www.indiabix.com/computer-science/computer-hardware/
+
+<start>
+From what location are the 1st computer instructions available on boot up?
+
+A) ROM BIOS
+B) CPU
+C) boot.ini
+D) CONFIG.SYS
+E) None of the above
+
+<end>
+
+<answer>
+A

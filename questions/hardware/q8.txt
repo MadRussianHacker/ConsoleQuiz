@@ -1,0 +1,13 @@
+<author>
+MadRussianHacker
+
+<start>
+GPU means:
+
+A) General Processing Unit
+B) Graphical Processing Unit
+C) special serial port
+<end>
+
+<answer>
+B

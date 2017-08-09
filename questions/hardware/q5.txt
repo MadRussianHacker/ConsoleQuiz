@@ -1,0 +1,13 @@
+<author>
+MadRussianHacker
+
+<start>
+How to change first boot device in your computer?
+
+A) use special program
+B) set it in BIOS
+C) change configuration file of your OS
+<end>
+
+<answer>
+B

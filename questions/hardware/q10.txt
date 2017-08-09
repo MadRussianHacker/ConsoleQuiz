@@ -1,0 +1,12 @@
+<author>
+MadRussianHacker
+
+<start>
+Content of RAM is cleared after every shut down.
+
+A) true
+B) false
+<end>
+
+<answer>
+A

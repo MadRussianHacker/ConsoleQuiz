@@ -1,0 +1,14 @@
+<author>
+MadRussianHacker
+
+<start>
+What's the connector type for graphics cards?
+
+A) DVI
+B) SATA/ATA
+C) PS/2
+D) PCI Express 3.0
+<end>
+
+<answer>
+D

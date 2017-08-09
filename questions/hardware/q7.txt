@@ -1,0 +1,15 @@
+<author>
+MadRussianHacker
+
+<start>
+How many GBs of RAM can handle 32 bit CPU?
+
+A) unlimited amount
+B) 8 GB
+C) 6 GB
+D) 32 GB
+E) 4 GB
+<end>
+
+<answer>
+E

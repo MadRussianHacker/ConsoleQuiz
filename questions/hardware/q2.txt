@@ -1,0 +1,12 @@
+<author>
+MadRussianHacker
+
+<start>
+What type of hard drive is faster?
+
+A) SSD
+B) HDD
+<end>
+
+<answer>
+A

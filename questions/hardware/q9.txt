@@ -1,0 +1,15 @@
+<author>
+MadRussianHacker
+
+<start>
+What may cause increasing CPU speed?
+
+A) memory leaks
+B) CPU can explode
+C) CPU will emit too much heat,
+   so additional cooling will be necessary
+D) None of above
+<end>
+
+<answer>
+C

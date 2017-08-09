@@ -1,0 +1,14 @@
+<author>
+MadRussianHacker
+
+<start>
+What type of connector ISN'T used for video transmission?
+
+A) VGA
+B) HDMI
+C) SATA
+D) DVI
+<end>
+
+<answer>
+C

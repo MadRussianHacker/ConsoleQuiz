@@ -1,0 +1,16 @@
+<author>
+MadRussianHacker
+
+<start>
+Old computers didn't support USB handling before system boot.
+On what port you should connect your keyboard to open BIOS?
+
+A) RS-232
+B) FireWire
+C) PS/2
+D) RS-422
+<end>
+
+<answer>
+C
+
