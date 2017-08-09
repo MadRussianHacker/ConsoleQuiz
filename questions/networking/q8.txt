@@ -1,0 +1,13 @@
+<author>
+MadRussianHacker
+
+<start>
+What is DNS?
+
+A) Domain Name System
+B) Domain Network System
+C) DoS attack Network prevention System
+<end>
+
+<answer>
+A

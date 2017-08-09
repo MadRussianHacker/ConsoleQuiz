@@ -1,0 +1,15 @@
+<author>
+MadRussianHacker
+
+<start>
+How TCP and UDP protocols differ?
+
+A) TCP is based on client-server concept,
+   UPD on p2p (peer-to-peer)
+B) TCP is based on p2p concenpt,
+   UDP on client-server
+C) TCP protocol is faster than UDP
+<end>
+
+<answer>
+A

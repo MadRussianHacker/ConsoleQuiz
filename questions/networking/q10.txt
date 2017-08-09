@@ -1,0 +1,13 @@
+<author>
+MadRussianHacker
+
+<start>
+What is MAC address?
+
+A) long address of all hardware connected to network (e.g. network card address)
+B) address of each computer in LAN
+C) address such as google.com
+<end>
+
+<answer>
+A

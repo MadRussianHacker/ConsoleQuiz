@@ -1,0 +1,14 @@
+<author>
+MadRussianHacker
+
+<start>
+What protocol is used to get remote access to the other computer?
+
+A) HTTP
+B) UDP
+C) SSH
+D) FTP
+<end>
+
+<answer>
+C

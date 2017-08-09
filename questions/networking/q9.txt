@@ -1,0 +1,14 @@
+<author>
+MadRussianHacker
+
+<start>
+What protocol is used to transfer files between computers?
+
+A) UDP
+B) SSH
+C) HTTP
+D) FTP
+<end>
+
+<answer>
+D

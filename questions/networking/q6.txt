@@ -1,0 +1,18 @@
+<author>
+MadRussianHacker
+
+<start>
+What is DoS attack?
+
+A)  is a code injection technique, used to attack data-driven applications,
+    in which nefarious SQL statements are inserted into an entry field for execution
+    (e.g. to dump the database contents to the attacker).
+B)  a type of computer security vulnerability typically found in web applications.
+C)  sending e-mails with various forms of harmful software, such as viruses and ransomware.
+D)  a cyber-attack where the perpetrator seeks to make a machine or network
+    resource unavailable to its intended users by temporarily or indefinitely
+    disrupting services of a host connected to the Internet.
+<end>
+
+<answer>
+D

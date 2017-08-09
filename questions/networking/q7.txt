@@ -1,0 +1,14 @@
+<author>
+MadRussianHacker
+
+<start>
+Which physical topology is commonly used nowadays?
+
+A) star
+B) line
+C) bus 
+D) ring
+<end>
+
+<answer>
+A

@@ -1,0 +1,12 @@
+<author>
+MadRussianHacker
+
+<start>
+What is LAN?
+A) Local Area Network
+B) Legal Attack on Network
+C) Last Attempt of connection in Network
+<end>
+
+<answer>
+A

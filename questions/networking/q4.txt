@@ -1,0 +1,14 @@
+<author>
+MadRussianHacker
+
+<start>
+What is VPN?
+
+A) Virtual Public Network
+B) TCP-based protcol
+C) Virtual Private Network
+D) protocol similar to FTP
+<end>
+
+<answer>
+C

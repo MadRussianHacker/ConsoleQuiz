@@ -1,0 +1,14 @@
+<author>
+MadRussianHacker
+
+<start>
+1MB/s is equal to:
+
+A) 16Mb/s
+B) 8Mb/s
+C) 10Mb/s
+D) 100kb/s
+<end>
+
+<answer>
+B
