@@ -6,6 +6,7 @@
     #define SYS_CLEAR_COMMAND "cls"
 #else
     #include <cstdio>
+    #include <cstdlib>
     #define SYS_CLEAR_COMMAND "clear"
 #endif
 
