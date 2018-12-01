@@ -29,7 +29,7 @@ void Quiz::start(){
     if(category==PROGRAMMING) askQuestions(10, "questions/programming/");
     if(category==NETWORKING) askQuestions(10, "questions/networking/");
     if(category==HARDWARE) askQuestions(10, "questions/hardware/");
-    if(category==SECUIRITY) askQuestions(10, "questions/secuirity");
+    if(category==SECURITY) askQuestions(10, "questions/security");
     clear();
     judgeResults();
     std::cout<<"Points: "<<points<<"/"<<maxPoints<<"\n";
