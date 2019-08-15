@@ -1,8 +1,8 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
-What is DoS attack?
+What is a DoS attack?
 
 A)  is a code injection technique, used to attack data-driven applications,
     in which nefarious SQL statements are inserted into an entry field for execution

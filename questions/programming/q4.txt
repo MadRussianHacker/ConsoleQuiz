@@ -1,8 +1,8 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
-What kind of algorithm is bubble sort?
+Computational complexity of bubble sort algorithm:
 
 A) O(log n) 
 B) O(n^2)

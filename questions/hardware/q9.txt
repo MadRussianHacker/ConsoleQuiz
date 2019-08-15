@@ -1,5 +1,5 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
 What may cause increasing CPU speed?

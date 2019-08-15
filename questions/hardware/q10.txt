@@ -1,5 +1,5 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
 Content of RAM is cleared after every shut down.

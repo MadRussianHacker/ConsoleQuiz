@@ -29,7 +29,6 @@ void Quiz::start(){
     if(category==PROGRAMMING) askQuestions(10, "questions/programming/");
     if(category==NETWORKING) askQuestions(10, "questions/networking/");
     if(category==HARDWARE) askQuestions(10, "questions/hardware/");
-    if(category==SECURITY) askQuestions(10, "questions/security");
     clear();
     judgeResults();
     std::cout<<"Points: "<<points<<"/"<<maxPoints<<"\n";
@@ -70,7 +69,6 @@ int Quiz::categoryChoice(){
         std::cout<<"\n [1] PROGRAMMING  \n";
         std::cout<<" [2] NETWORKING \n";
         std::cout<<" [3] HARDWARE \n";
-        std::cout<<" [4] SECUIRITY \n\n";
         std::cout<<"\n"<<errMsg<<"\n";
         std::cin>>option;
         if( (!std::cin.good()) || ((option>4)||(option<1)) ){
@@ -124,7 +122,7 @@ void Quiz::runMenu(){
 
 void Quiz::credits(){
     clear();
-    std::cout<<"\n\t Copyright 2017 by Michal Gibas \n (\"MadRussianHacker\") \n";
+    std::cout<<"\n\t Copyright 2017 by Michal Gibas \n (\"TheMadMike\") \n";
     std::cout<<"\t\t All rights reseved. \n\n";
     std::this_thread::sleep_for(std::chrono::seconds(3));
     state = MENU;

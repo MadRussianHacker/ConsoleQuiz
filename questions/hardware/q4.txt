@@ -1,8 +1,8 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
-What's the connector type for graphics cards?
+What's type of connector is used for most extension cards (e.g. graphics cards)?
 
 A) DVI
 B) SATA/ATA

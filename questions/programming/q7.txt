@@ -1,10 +1,11 @@
 <author>
-MadRussianHacker
+TheMadMike
+
 <start>
 How binary search works?
-A) searches in sorted data structure, starts from middle
-C) starts from left and goes to next item
-B) searches from left and from right at the same time
+
+A) search in sorted data structure, start from middle
+C) start from left and go to next item
 
 <end>
 

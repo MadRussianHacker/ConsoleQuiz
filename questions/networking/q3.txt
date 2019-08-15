@@ -1,8 +1,9 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
-What is LAN?
+LAN stands for:
+
 A) Local Area Network
 B) Legal Attack on Network
 C) Last Attempt of connection in Network

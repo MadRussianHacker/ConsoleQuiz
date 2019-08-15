@@ -1,8 +1,8 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
-On which data structure is based heap?
+On which data structure is heap based?
 
 A) list
 B) stack

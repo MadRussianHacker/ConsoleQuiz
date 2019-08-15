@@ -1,7 +1,8 @@
 <author>
+TheMadMike
 
 <start>
-What langauge is used to describe style of websites?
+What langauge is used to define style of websites?
 
 A) JavaScript
 B) C#

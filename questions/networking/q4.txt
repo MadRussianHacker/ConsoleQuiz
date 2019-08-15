@@ -1,8 +1,8 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
-What is VPN?
+VPN stands for:
 
 A) Virtual Public Network
 B) TCP-based protcol

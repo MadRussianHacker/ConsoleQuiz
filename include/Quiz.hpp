@@ -17,7 +17,7 @@ private:
     void askQuestions(int questionCount, const std::string& path);
     void judgeResults();
     bool wasBefore(int x);
-    enum Category{PROGRAMMING, NETWORKING, HARDWARE, SECURITY};
+    enum Category{PROGRAMMING, NETWORKING, HARDWARE};
     int categoryChoice();
 
     enum State{MENU, START, CREDITS, EXIT};

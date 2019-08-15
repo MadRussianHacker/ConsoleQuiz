@@ -1,5 +1,5 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
 What type of connector ISN'T used for video transmission?

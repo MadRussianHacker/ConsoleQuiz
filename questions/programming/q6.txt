@@ -1,7 +1,8 @@
 <author>
-MadRussianHacker
+TheMadMike
+
 <start>
-Which sorting algorithm from below is the most efficient?
+Which sorting algorithm has the lowest complexity?
 
 A) bubble sort
 B) quick sort

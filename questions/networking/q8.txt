@@ -1,8 +1,8 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
-What is DNS?
+DNS stands for:
 
 A) Domain Name System
 B) Domain Network System

@@ -1,11 +1,11 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
-GPU means:
+GPU stands for:
 
 A) General Processing Unit
-B) Graphical Processing Unit
+B) Graphics Processing Unit
 C) special serial port
 <end>
 

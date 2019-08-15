@@ -1,8 +1,8 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
-What protocol is used to get remote access to the other computer?
+What protocol is used to remotely access other computer?
 
 A) HTTP
 B) UDP

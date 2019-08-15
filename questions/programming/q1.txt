@@ -1,8 +1,8 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
-How many calls of foo function will cause that loop?
+How many calls of foo function will this code cause?
 [C++]=========================================
     for(int i=11; i>2; --i){                 |
         foo();                               |

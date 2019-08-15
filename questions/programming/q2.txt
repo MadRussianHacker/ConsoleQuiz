@@ -1,5 +1,5 @@
 <author>
-MadRussianHacker
+TheMadMike
 
 <start>
 How to print something in web browser console in JavaScript?
